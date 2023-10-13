@@ -6,9 +6,9 @@ import coffee from '@/public/images/coffee.png'
 import Link from 'next/link'
 import ProductCard from './components/ProductCard'
 import { getServerSession } from 'next-auth'
-import { authOptions } from './api/auth/[...nextauth]/route'
 import { Metadata } from 'next'
 import dynamic from 'next/dynamic'
+//import { authOptions } from './api/auth/authOptions'
 
 
 const HeavyComponent = dynamic(
